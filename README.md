@@ -12,4 +12,4 @@ Repositorio donde desarrollo y mantengo mi CV como un proyecto de software
 ## Estado
 
 En desarrollo.
-
+    
