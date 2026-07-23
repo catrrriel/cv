@@ -1,0 +1,46 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+}
+
+aside {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitle{
+    font-size: 20px;
+}
+
+/* Contactos */
+.contact-list{
+    padding: 0;
+    list-style: none;
+}
+.contact-item{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Tecnologias */
+/* .tech-group{
+    display: flex;
+    flex-direction: column;
+} */
+.tech-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 5px;
+    padding: 0;
+    justify-content: center;
+
+}
