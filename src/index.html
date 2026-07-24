@@ -80,24 +80,54 @@
             </section>
             <section>
                 <h3>Habilidades</h3>
-                <ul>
-                    <li>Resolución de problemas</li>
-                    <li>Comunicación técnica</li>
-                    <li>Aprendizaje autónomo</li>
-                    <li>Pensamiento analítico</li>
-                    <li>Adaptabilidad</li>
+                <ul class="skill-list">
+                    <li class="skill-item">Resolución de problemas</li>
+                    <li class="skill-item">Comunicación técnica</li>
+                    <li class="skill-item">Aprendizaje autónomo</li>
+                    <li class="skill-item">Pensamiento analítico</li>
+                    <li class="skill-item">Adaptabilidad</li>
                 </ul>
             </section>
             <section>
                 <h3>Educación</h3>
+                <ul class="education-list">
+                    <li class="education-item">
+                        <h4>Universidad Nacional de La Plata</h4>
+                        <p>Licenciatura en Sistemas</p>
+                        <time>2023 - Actualidad</time>
+                    </li>
+                    <li class="education-item">
+                        <h4>EEST Nº6 Albert Thomas</h4>
+                        <p>Técnico Electrónico</p>
+                        <time>2022</time>
+                    </li>
+                    <li class="education-item">
+                        <h4>Instituto Ingles On The Way</h4>
+                        <p>Nivel B2</p>
+                    </li>
+                </ul>
             </section>
             <section>
                 <h3>Experiencia académica</h3>
+                <article class="experience">
+                    <h4>Prácticas profesionalizantes - InfoTEC (UNLP)</h4>
+                    <p>
+                        Participación en un espacio de extensión orientado al desarrollo de software, donde se realizaron aplicaciones de escritorio para la práctica de JavaScript, HTML y CSS, y se colaboró en las primeras etapas del desarrollo del sitio web institucional de UNiTEC.
+                    </p>
+                    <ul class="experience-list">
+                        <li class="experience-item">Desarrollo de aplicaciones como parte de las prácticas de formación en JavaScript.</li>
+                        <li class="experience-item">Trabajo colaborativo utilizando Git.</li>
+                        <li class="experience-item">Prácticas de desarrollo dentro de un equipo.</li>
+                        <li class="experience-item">
+                            Participación en el diseño e implementación inicial del sitio institucional. <a href="https://github.com/InfotecU/Pagina-Unitec/tree/develop">Repositorio del proyecto</a>
+                        </li>
+                    </ul>
+                </article>
             </section>
         </aside>
 
         <!-- Contenido principal -->
-        <article>
+        <section class="main-content">
             <section>
                 <h3>
                     Perfil profesional
@@ -108,8 +138,45 @@
             </section>
             <section>
                 <h3>Proyectos destacados</h3>
+                <div class="project-list">
+                    <article class="project">
+                        <h4>SGE - Sistema de Gestión de Expedientes</h4>
+                        <p>Plataforma desarrollada para la administración digital de expedientes mediante una arquitectura por capas y persistencia de datos en SQLite.</p>
+                        <ul class="feature-list">
+                            <li class="feature-item">Arquitectura inspirada en Clean Architecture.</li>
+                            <li class="feature-item">SQLite + EF Core ORM</li>
+                            <li class="feature-item">Operaciones CRUD para la gestión integral de expedientes.</li>
+                            <li class="feature-item">Autenticación y autorización basada en JWT.</li>
+                        </ul>
+                        <ul class="tech-list">
+                            <li class="tech-item">C#</li>
+                            <li class="tech-item">.NET</li>
+                            <li class="tech-item">EF Core</li>
+                            <li class="tech-item">SQLite</li>
+                        </ul>
+                        <a href="">Repositorio</a>
+                    </article>
+                    <article class="project">
+                        <h4>Attendance System - Sistema de asistencia por QR</h4>
+                        <p>Sistema web para la gestión de asistencia mediante códigos QR desarrollado para una cátedra universitaria.</p>
+                        <ul class="feature-list">
+                            <li class="feature-item">Arquitectura modular.</li>
+                            <li class="feature-item">PostgreSQL + Prisma ORM.</li>
+                            <li class="feature-item">Autenticación y  roles.</li>
+                            <li class="feature-item">Registro y validación de asistencias.</li>
+                            <li class="feature-item">Proyecto actualmente en desarrollo.</li>
+                        </ul>
+                        <ul class="tech-list">
+                            <li class="tech-item">Node.js</li>
+                            <li class="tech-item">Express</li>
+                            <li class="tech-item">Prisma ORM</li>
+                            <li class="tech-item">PostgreSQL</li>
+                        </ul>
+                        <a href="">Repositorio</a>
+                    </article>
+                </div>
             </section>
-        </article>
+        </section>
     </main>
 </body>
 </html>

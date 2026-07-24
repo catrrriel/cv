@@ -1,22 +1,31 @@
+.subtitle{
+    font-size: 20px;
+}
+
 main {
     display: grid;
     grid-template-columns: 1fr 2.5fr;
 }
 
+/* CONTENIDO PRINCIPAL */
+.main-content {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Proyectos */
+.project-list{
+    padding: 0;
+    list-style: none;
+}
+
+
+/* INFORMACION COMPLEMENTARIA */
 aside {
     border: 1px solid;
     display: flex;
     flex-direction: column;
-}
-
-article {
-    border: 1px solid;
-    display: flex;
-    flex-direction: column;
-}
-
-.subtitle{
-    font-size: 20px;
 }
 
 /* Contactos */
@@ -30,11 +39,7 @@ article {
 }
 
 /* Tecnologias */
-/* .tech-group{
-    display: flex;
-    flex-direction: column;
-} */
-.tech-list{
+aside .tech-list{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -42,5 +47,14 @@ article {
     gap: 5px;
     padding: 0;
     justify-content: center;
+}
 
+/* Habilidades */
+.skill-list{
+    padding: 0;
+}
+
+/* Educacion */
+.education-list{
+    padding: 0;
 }
